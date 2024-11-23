@@ -74,6 +74,7 @@ export default function Home() {
               setInvalidBarcode(false);
               setTimeout(async () => {
                 isbn = data;
+                console.log(isbn);
                 setPopup(true)
                 setScanning(false)
                 // await Linking.openURL("http://openlibrary.org/isbn/" + data + ".json");
